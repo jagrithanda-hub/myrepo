@@ -142,9 +142,30 @@
 
 // });
 // //this is an example
-function sum(num1,num2){
-    adition = num1+num2;
-    console.log(adition);
-}
-sum(10,10)
+// function sum(num1,num2){
+//     adition = num1+num2;
+//     console.log(adition);
+// }
+// sum(10,10)
 
+// let funcname = (n1,n2)=>{
+//     return n1*n2
+    
+// }
+// let a = funcname(2,3)
+// console.log(a)
+// const arrowfunc = (n1,n2)=>{
+//     return (n1*n2)
+// }
+// let a = arrowfunc(2,3)
+// console.log(a)
+// const vowelcount =(string) =>{
+//     let count=0;
+//     for(let i=0;i<=string.length;i++){
+        
+//         if(string.toLowerCase()[i]==="a" || string.toLowerCase()[i]==="e" || string.toLowerCase()[i]==="i" || string.toLowerCase()[i]==="o" || string.toLowerCase()[i]==="u"){
+//             count=count+1
+//         }
+//     }console.log(count)
+// }
+// vowelcount("Aaple")
