@@ -126,21 +126,22 @@
 
 //     process.exit();
 // });
-let num = [];
-process.stdout.write("enter the number")
-process.stdin.on("data",function(inputfromuser){
-  let input = Number(inputfromuser)
-  if(input===Number(input)){
-    num.push(input)
+// let num = [];
+// process.stdout.write("enter the number")
+// process.stdin.on("data",function(inputfromuser){
+//   let input = Number(inputfromuser)
+//   if(input===Number(input)){
+//     num.push(input)
     
-  }else{
-    console.log(Math.max(...num))
-    console.log(Math.min(...num))
-    process.exit()
-  }
+//   }else{
+//     console.log(Math.max(...num))
+//     console.log(Math.min(...num))
+//     process.exit()
+//   }
 
 
-});
-//this is an example
+// });
+// //this is an example
+
 
 
