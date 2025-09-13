@@ -142,6 +142,9 @@
 
 // });
 // //this is an example
-
-
+function sum(num1,num2){
+    adition = num1+num2;
+    console.log(adition);
+}
+sum(10,10)
 
