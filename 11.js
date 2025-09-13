@@ -10,7 +10,7 @@ process.stdin.on("data", function(inputfromuser){
     }
     process.exit() 
 });
-//quetion-2
+//quetion-2 is ;
 process.stdout.write("write the number you want to convert into km:  ");
 process.stdin.on("data", function(inputfromuser){
     let userinput = inputfromuser.toString().trim();
