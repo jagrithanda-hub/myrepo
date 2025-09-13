@@ -1,4 +1,4 @@
-// // const { StrictMode } = require("react");
+// const { StrictMode } = require("react");
 
 // /*let score = prompt("Enter your score:");
 // if (score >= 90 && score <= 100) {
