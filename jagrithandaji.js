@@ -170,3 +170,19 @@
 // }
 // vowelcount("Aaple")
 //functions
+// let arr = [67,2,3,4,5];
+// arr.forEach(function squarenumber(arr){
+//     let ab = arr**2
+//     console.log(ab)
+
+// })
+// let num = [1,2,3,4,5,2,4,5,76,56,324,4576,8765,34]
+// let newarr = num.reduce((result,val)=>{
+//     return result<val?result:val ;
+// });
+// console.log(newarr)
+// let marks = [45,90,95,56,99,78,92,65,45,99];
+// let nwarray = marks.filter((val=>{
+//     return val>=90;
+// }));
+// console.log(nwarray)
