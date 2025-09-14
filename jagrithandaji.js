@@ -186,3 +186,25 @@
 //     return val>=90;
 // }));
 // console.log(nwarray)
+// let n = prompt("enter a number: ");
+// let arr =[];
+// for(let i=1;i<=n;i++){
+//     arr[i-1]=i;
+// };
+// console.log(arr);
+// let num = arr.reduce((result,val)=>{
+//     return result*val;
+
+// })
+// console.log("factorial of "+n,"is",num);
+// console.log(3+false)
+// function myval(val){
+//     console.log(val);
+// }
+// myval("Hello")
+// let apple = function(num1,num2){
+//     return num1+num2;
+// };
+// let xyz = apple(3,5);
+// console.log(xyz)
+
