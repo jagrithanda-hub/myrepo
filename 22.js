@@ -88,7 +88,7 @@ process.stdin.on('data', function(inputfromuser){
             let now = new Date();
             console.log("today's date and current time is",now.toString()); 
             break;
-            case 3:
+        case 3:
             process.exit();
         default:
             console.log("invalid input");
