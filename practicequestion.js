@@ -44,14 +44,14 @@
 // console.log(Math.max(...arr));
 // console.log(Math.min(...arr));
 //quetsion-5
-process.stdout.write("Enter a string : ");
-process.stdin.on("data",function(inputfromuser){
-    let num = inputfromuser.toString().trim();
-    count=0;
-    for(let i=0;i<=num.length-1;i++){
-        if(num.toLowerCase()[i]=="a"||num.toLowerCase()[i]=="o"||num.toLowerCase()[i]=="i"||num.toLowerCase()[i]=="o"||num.toLowerCase()[i]=="u")
-            count+=1;
-        };
-        console.log("NUmebr of vowels = "+count)
-        process.exit();
-    });        
+// process.stdout.write("Enter a string : ");
+// process.stdin.on("data",function(inputfromuser){
+//     let num = inputfromuser.toString().trim();
+//     count=0;
+//     for(let i=0;i<=num.length-1;i++){
+//         if(num.toLowerCase()[i]=="a"||num.toLowerCase()[i]=="o"||num.toLowerCase()[i]=="i"||num.toLowerCase()[i]=="o"||num.toLowerCase()[i]=="u")
+//             count+=1;
+//         };
+//         console.log("NUmebr of vowels = "+count)
+//         process.exit();
+//     });        
