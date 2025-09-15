@@ -76,3 +76,13 @@
 //   }
 //   console.log(row);
 // }
+// for (let i=10;i<36;i++)[
+//     process.stdout.write(i.toString(36)+" ")
+// ]
+for(let i =0;i <10;i++){
+    console.log("\n")
+    for(let j=0;j<10;j++){
+        row +=`(${i}.${j})`;
+        
+    }console.log(row.trim())
+}
