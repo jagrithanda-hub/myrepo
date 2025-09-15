@@ -15,7 +15,7 @@
 //     };
     
 //     process.exit();
-});
+// });
 //question-2
 console.log("enter the number : ");
 process.stdin.on("data",function(inputfromuser){
