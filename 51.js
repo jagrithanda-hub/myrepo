@@ -43,3 +43,26 @@
 // result = circumference(5)
 // console.log(result)
 //question-5
+console.log("please enter a string: ")
+process.stdin.on("data",function(inputfromuser){
+    let text = inputfromuser.toString();
+    function replaceSmileys(text){
+    let newstring = text.replace(":)","*smiling*");
+    newstring = newstring.replace(":(","*sad*");
+    newstring = newstring.replace("<3","*love*"); 
+    console.log(newstring);
+};
+function replaceSmileysWithReplacer(text, replacer){
+    let regexp = /(:\)|:\(|;\)|<3)/g;
+
+    let replaced = text.replace(regexp,replacer)
+    console.log(replaced);
+    return replaced;
+   
+};
+
+replaceSmileys(text);
+replaceSmileysWithReplacer(text,"[smiley]");
+process.exit()
+})
+
