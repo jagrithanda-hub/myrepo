@@ -1,21 +1,21 @@
 //question-1
-// console.log("enter a string to check if its palindrome or not: ");
-// process.stdin.on("data",function(inputfromuser){
-//     let string=inputfromuser.toString().trim();
-//     let reverse = ""
-//     for(let i=string.length-1;i>=0;i--){
-//         reverse+=string[i];
+console.log("enter a string to check if its palindrome or not: ");
+process.stdin.on("data",function(inputfromuser){
+    let string=inputfromuser.toString().trim();
+    let reverse = ""
+    for(let i=string.length-1;i>=0;i--){
+        reverse+=string[i];
         
 
-//     };
-//     if(string.toLowerCase()==reverse.toLowerCase()){
-//             console.log("true");
-//     }else{
-//             console.log("false");
-//     };
+    };
+    if(string.toLowerCase()==reverse.toLowerCase()){
+            console.log("true");
+    }else{
+            console.log("false");
+    };
     
-//     process.exit();
-// });
+    process.exit();
+});
 //question-2
 console.log("enter the number : ");
 process.stdin.on("data",function(inputfromuser){
@@ -55,4 +55,38 @@ process.stdin.on("data",function(inputfromuser){
         };
         console.log("NUmebr of vowels = "+count)
         process.exit();
-    });        
+    });     
+question-6
+function Fibonaccisequence(num){
+    let a =1,b=2
+    let arr =[]
+    for(let i=0;i<num;i++){
+        arr.push(a);
+        [a,b]=[b,a+b];
+    };
+    console.log(`[${arr}]`)
+};
+Fibonaccisequence(10
+
+)
+queston-7
+function duplicate(arr){
+    for (let i=0;i<=arr.length;i++){
+        for(let j= i+1;j<=arr.length;j++){
+            if(arr[i]===arr[j]){
+                arr.splice(j,1);
+                j--;
+            }
+        }
+    };
+    console.log(arr);
+
+};
+duplicate([1,2,3,4,5,5,6,7,7,7,7,7,7,7,9])
+//or
+function duplicate(arr){
+    console.log(Math.max(...arr))
+    return [...new Set(arr)];
+    
+};
+console.log(`[${duplicate([1,2,3,4,5,5,6,7,7,7,7,7,7,7,9])}]`)
