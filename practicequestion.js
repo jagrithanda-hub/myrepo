@@ -101,4 +101,37 @@
 //     }
 // };
 // anagram("listen","silent")    
-//question-9
+// //question-9
+// function newarr(arr){
+//     let result=[];
+//     for (let i of arr){
+//         if(Array.isArray(i)){
+//             result.push(...i);
+//         }else{
+//             result.push(i);
+//         }
+//     };
+//     console.log(result)
+// };
+// newarr([1,[2,3,4],[5,6],7]);
+//question-10
+function sumofarr(arr){
+    console.log(`without nested arr is  = `, arr);
+    let result = [];
+    for(let i of arr){
+        if(Array.isArray(i)){
+            result.push(...i);
+        }else{
+            result.push(i);
+        }
+    };
+    console.log(`without nested arr = [${result}]`);
+    
+    let sum=0;
+    for(let i=0;i<=result.length;i++){
+        sum =sum + i ;
+        
+    };console.log(`Sum of this nested array is ${sum}`);
+    
+};
+sumofarr([1,[2,3,4],[5,6,6,7],7])
