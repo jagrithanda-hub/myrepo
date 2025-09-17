@@ -136,3 +136,14 @@
 // };
 // sumofarr([1,[2,3,4],[5,6,6,7],7]);
 //question-11
+function arr(arr1,arr2){
+    let finalarr = arr1.concat(arr2);
+    let median = 0;
+    if ((finalarr.length%2)==0){
+        let a = finalarr.length/2;
+        median = (finalarr.indexAt(a)+finalarr.indexAt(a+1))/2;
+    }
+        
+    console.log(finalarr);
+};
+arr([1,2],[3,4]);//create a function to calculate the median
