@@ -229,3 +229,17 @@
 //     }  
 
 // );
+function palindrome(str1){
+    for (let i=0;i< str1.length / 2;i++){
+        if(str1.charAt(i)==str1.charAt(str1.length-1-i)){
+            process.stdout.write("yes");
+            process.exit()
+        }else{
+            process.stdout.write("no");
+            process.exit()
+        }
+        }
+    }
+
+
+palindrome("madam")
