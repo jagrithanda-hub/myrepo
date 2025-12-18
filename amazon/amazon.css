@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
@@ -352,9 +353,115 @@ font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 
 }
 .backtotop a{
     text-decoration: none;
     color: white;
+}
+.ending{
+    height: 200px;
+    width: 100%;
+    background-color: #232F3E;
+     display: flex;
+    justify-content: center;
+}
+.para{
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+.lists{
+    padding-bottom:30px ;
+    font-weight:600;
+    padding-top: 50px;
+    
+}
+ol{
+   margin: 0;
+   list-style: none;
+   padding: 0;
+   color: white;
+   
+   
+    
+    
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.logos{
+    height:50px ;
+    width: 100%;
+    background-color:rgb(18, 129, 154) ;
+    display: flex;
+    justify-content:center;
+    
+    
+}
+.logos img{
+    height: 40px;
+    /* width: 40px; */
+    padding-top: 13px;
+}
+.lang{
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 20px; */
+    
+}
+.globe{
+    padding-right: 100px;
+}
+.english{
+    height: 30px;
+    width: 120px;
+    background-color: none;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.padding{
+    padding-right: 40px;
+}
+/* ending */
+.ending{
+    display: flex;
+    background-color: black;
+}
+.end{
+    width:100%;
+    height: 100px;
+    background-color: black;
+    color: black;
+}  
+.books{
+    padding-top: 30px;
+    font-size: 0.8rem;
+}
+.Shopbop{
+    margin-top: 50px;
+    font-size: 0.8rem;
+}
+.full{
+    display: flex;
+    justify-content: center;
+    
+}
+.full p{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.fulls{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
